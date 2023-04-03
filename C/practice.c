@@ -32,7 +32,7 @@ int main()
 }*/
 
 
-/*#include <stdio.h>
+/*#include <stdio.h>//시험 성적의 평균과 그에 따른 학점 출력
 int main()
 {
   int a, b, c, i;
@@ -57,4 +57,33 @@ int main()
   }
 
   return 0;
+}*/
+
+
+/*#include <stdio.h>//1부터 8까지 짝수 단의 수 만큼 구구단 출력
+int main ()
+{
+  int a, i;
+  for (a=1; a<=8; a++)
+  {
+    if (a%2==0)
+    {
+      for (i=1; i<=a; i++)
+      printf("%d * %d = %d\n", a, i, a*i);
+    }
+    putchar('\n');
+  }
+  return 0;
+}*/
+
+/*#include <stdio.h>//별 갯수를 하나씩 늘려가며 출력
+int main()
+{
+  int a, b;
+  for (a=1; a<=5; a++)
+  {
+    for(b=0; b<a; b++)
+     printf("*");
+     printf("\n");
+  }
 }*/
