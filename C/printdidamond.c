@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>// 입력한 수에 따라 다이아몬드 출력
 int main()
 {
     int i, j, k, num;
