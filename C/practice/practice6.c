@@ -29,15 +29,6 @@ int main()
 }*/
 
 #include <stdio.h>
-/*int totalscore(int grade[])
-{
-    int countsubject, sum=0;
-    for(countsubject=0; countsubject<4; countsubject++)
-    {
-        sum = sum+grade[countsubject];
-    }
-    return sum;
-}*/
 double average(double stscore[])
 {
     int countsubject;
