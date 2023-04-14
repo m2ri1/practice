@@ -30,7 +30,7 @@ int main()
     return 0;
 }*/
 
-#include <stdio.h>
+/*#include <stdio.h>
 #include "myfucn.h"
 
 int main()
@@ -39,5 +39,20 @@ int main()
     add();
     printf("%d\n", num2);
     printf("%d", num1);
+    return 0;
+}*/
+
+#include <stdio.h>
+int main()
+{
+    int number, j=1, i;
+    printf("숫자를 입력하세요\n");
+    putchar('>');
+    scanf("%d", &number);
+    for (i=number; i>0; i--)
+    {
+        j=i*j;
+    }
+    printf("%d", j);
     return 0;
 }
