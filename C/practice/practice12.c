@@ -47,14 +47,15 @@ int fibo(int num)
     else return fibo(num - 1) + fibo(num - 2);
 }*/
 
-#include <stdio.h>/// 중복되는 난수 빼고 출력하기
+/*#include <stdio.h>/// 중복되는 난수 빼고 출력하기
 #include <stdlib.h>
 #include <time.h>
 int main(void)
 {
-    int a;
+    int a, number[10];
     srand((unsigned)time(NULL));
     for (a=0; a<10; a++)
     printf("%d", 1+rand()%6);
+
     return 0;
-}
+}*/
