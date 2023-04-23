@@ -47,7 +47,7 @@ int fibo(int num)
     else return fibo(num - 1) + fibo(num - 2);
 }*/
 
-/*#include <stdio.h>/// 중복되는 난수 빼고 출력하기
+#include <stdio.h>/// 중복되는 난수 빼고 출력하기
 #include <stdlib.h>
 #include <time.h>
 int main(void)
@@ -58,4 +58,4 @@ int main(void)
     printf("%d", 1+rand()%6);
 
     return 0;
-}*/
+}
