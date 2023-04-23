@@ -1,5 +1,5 @@
 //함수 사용
-/*#include <stdio.h>
+#include <stdio.h>
 int result(int i);
 int main ()
 {
@@ -19,7 +19,8 @@ int result(int i)
     return 0;
     else 
     return 1;
-}*/
+}
+
 /*#include<stdio.h>
 int main()
 {
