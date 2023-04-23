@@ -1,7 +1,6 @@
 # practice
 
-닌자가 되기 위한 수행🥷🏻
-
+매일매일 공부하고 이를 기록합니다.
 * practice_c
 * practice_python    
 
