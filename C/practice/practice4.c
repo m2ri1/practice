@@ -1,4 +1,7 @@
-/*#include <stdio.h>//숫자 9개를 3*3배열에 저장후 출력
+//제어문 사용
+
+
+#include <stdio.h>//숫자 9개를 3*3배열에 저장후 출력
 int main ()
 {
     int number[3][3];
@@ -38,7 +41,7 @@ int main ()
 
     }
     return 0;
-}*/
+}
 
 #include <stdio.h>//숫자 9개를 3*3배열에 세로 순서대로 저장후 출력
 int main ()
