@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//2차원 배열 사용
 int main()
 //1행과 2행 값 출력
 //1행과 2행 더한 값 출력
