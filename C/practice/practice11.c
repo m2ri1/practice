@@ -1,4 +1,5 @@
-/*#include <stdio.h>
+// 반복문
+#include <stdio.h>
 int hol(void);
 int jak(void);
 int main()
@@ -29,7 +30,7 @@ int jak(void)
         j+=i;
     }
     return j;
-}*/
+}
 
 /*#include<stdio.h>
 int number(int a);
