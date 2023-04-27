@@ -1,0 +1,79 @@
+/*#include <stdio.h>
+void swap(int *x, int *y)//주소를 받고 포인터를 사용하여 값을 입력받음 ex)a=1004(주소), *a=2
+{
+    int temp;
+    temp = *x;
+    *x = *y;
+    *y = temp;
+    return ;
+}
+int main()
+{
+int a=2, b=3;
+printf("함수호출 전 : a = %d, b = %d\n", a, b);
+swap(&a, &b);//엠퍼샌드를 사용해 주소를 보냄
+printf("함수호출 후 : a = %d, b = %d", a, b);
+}*/
+
+/*#include <stdio.h>
+void swap(int *x, int *y, int *z)
+{
+    int temp;
+    temp = *x;
+    *x = *z;
+    *z = *y;
+    *y = temp;
+   
+}
+int main()
+{
+int a, b ,c;
+printf("숫자를 3개 입력하세요");
+scanf("%d %d %d", &a, &b, &c);
+printf("함수호출 전 : a = %d, b = %d, c = %d\n", a, b, c);
+swap(&a, &b, &c);
+printf("함수호출 후 : a = %d, b = %d, c = %d\n", a, b, c);
+
+}*/
+
+/*#include <stdio.h>
+void rbm(int pxp, int pyp, int mxm, int my);
+void rbmp(int *pxp, int *pyp,int mx,int my);
+int main(void)
+{
+    int x=1;
+    int y=1;
+    rbm(x, y, 1, 2);
+    printf("이동한 위치 (%d, %d)\n", x, y);
+    rbmp(&x, &y, 1, 2);
+    printf("이동한 위치 (%d, %d)\n", x, y);
+    return 0;
+}
+void rbm(int pxp, int pyp, int mx, int my)
+{
+    pxp = pxp + mx;
+    pyp = pyp + my;
+}
+void rbmp(int *pxp, int *pyp, int mx, int my)
+{
+    *pxp = *pxp + mx;
+    *pyp = *pyp + my;
+}*/
+
+#include<stdio.h>
+int sub(int *arr)
+{
+    *arr=100;
+    *(arr+1)=200;
+    *(arr+2)=300;
+    printf("%d %d %d\n", *arr, *(arr+1), *(arr+2));
+}
+
+int main()
+{
+    int arr[3]={5, 10, 15};
+    sub(arr);
+    printf("%d %d %d\n", arr[1], arr[2], arr[3]);
+
+}
+
