@@ -60,7 +60,7 @@ void rbmp(int *pxp, int *pyp, int mx, int my)
     *pyp = *pyp + my;
 }*/
 
-#include<stdio.h>
+/*#include<stdio.h>
 int sub(int *arr)
 {
     *arr=100;
@@ -75,5 +75,27 @@ int main()
     sub(arr);
     printf("%d %d %d\n", arr[1], arr[2], arr[3]);
 
-}
+}*/
 
+/*#include<stdio.h>
+int main()
+{
+    char p[] = "helloworld";
+    char *a;
+    *(p+4)='i';
+    printf("%s\n", p);
+    a=p;
+    a = "goodbye";
+    printf("%s", a);
+    return 0;
+}*/
+
+#include <stdio.h>
+int main(void)
+{
+    char *lang[3] = {"c", "java", "python"};
+    int a;
+    printf("내가 배워야 할 언어는");
+    for (a=0; a<3; a++)printf(" %s ", lang[a]);
+    return 0;
+}
