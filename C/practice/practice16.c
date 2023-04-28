@@ -90,12 +90,25 @@ int main()
     return 0;
 }*/
 
+ /*#include <stdio.h>
+ int main(void)
+ {
+     char *lang[3] = {"c", "java", "python"};
+     int a;
+     printf("내가 배워야 할 언어는");
+     for (a=0; a<3; a++)printf(" %s ", lang[a]);
+    return 0;
+}*/
+
 #include <stdio.h>
 int main(void)
 {
-    char *lang[3] = {"c", "java", "python"};
-    int a;
-    printf("내가 배워야 할 언어는");
-    for (a=0; a<3; a++)printf(" %s ", lang[a]);
+    char address[100];
+    char *addpt;
+    printf("주소 입력: ");
+    gets(address);
+    addpt = address;
+    printf("입력한 주소는 : ");
+    puts(addpt);
     return 0;
 }
