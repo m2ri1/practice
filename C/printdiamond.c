@@ -1,3 +1,39 @@
+#include <stdio.h>
+int main ()
+{
+    int a, b, c;
+    for (a=0; a<10; a++)
+    {
+        for(b=0; b<=10-a;b++)
+        {
+            printf(" ");
+        }
+        for (c=0; c<=a*2; c++)
+        {
+            printf("*");
+        }
+        putchar('\n');
+    }
+
+    for (a=0; a<11; a++)
+    {
+        for(b=0; b<=a;b++)
+        {
+            printf(" ");
+        }
+        for (c=0; c<=(10-a)*2; c++)
+        {
+            printf("*");
+        }
+        putchar('\n');
+    }
+    
+    return 0;
+}
+
+
+
+/*
 #include <stdio.h>// 입력한 수에 따라 다이아몬드 출력
 int main()
 {
@@ -40,3 +76,4 @@ int main()
   }
     return 0;
 }
+*/
