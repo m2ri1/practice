@@ -100,7 +100,7 @@ int main()
     return 0;
 }*/
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main(void)
 {
     char address[100];
@@ -111,4 +111,34 @@ int main(void)
     printf("입력한 주소는 : ");
     puts(addpt);
     return 0;
+}*/
+
+#include<stdio.h>
+#include<string.h>
+int main(void)
+{
+    int i;
+    int isupper, islower, isdigit;
+    char mypasswd[20];
+    while (1){
+        printf("사용할 암호를 넣으세요 : ");
+        scanf("%s", mypasswd);
+        isupper = islower = isdigit = 0;
+        for(i=0; i<strlen(mypasswd); i++){
+            if (mypasswd[i]>='0' && mypasswd[i]<='9')
+            isdigit++;
+            else if (mypasswd[i]>='A' && mypasswd[i]<='Z')
+            isupper++;
+            else if (mypasswd[i]>='a' && mypasswd[i]<='z')
+            islower++;
+        }
+    if ((i>=6) && (isdigit>= 1) && (isupper >= 1) && (islower >= 1)) {
+        printf("암호로 사용이 가능합니다\n");
+        break;
+    }
+    else
+        printf(" 6문자 이상, 소문자, 대문자, 숫자가 각 1개씩 있어야 합니다\n");
+    
+    return 0;
+    }
 }
