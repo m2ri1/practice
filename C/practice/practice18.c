@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 struct myGrade {
     char *name;
@@ -20,4 +20,83 @@ int main()
     grade(kmy);
 
     return 0;
+}*/
+
+/*#include <stdio.h>
+struct mygrade {
+    char *name;
+    int korean;
+    int engilsh;
+    int math;
+};
+int main(void)
+{
+    struct mygrade myclass[20];
+    myclass[0].name = "강모연";
+    myclass[1].name = "서대영";
+    myclass[0].korean = 100;
+    myclass[1].math = 84;
+    printf("%s의 국어점수는 %d\n", myclass[0].name, myclass[0].korean);
+    printf("%s의 수학점수는 %d\n", myclass[1].name, myclass[1].math);
+}*/
+
+/*#include <stdio.h>
+struct studentinfo {
+    int stnum;
+    char *name;
+    int stage;
+
+};
+int main(void)
+{
+    struct studentinfo myinfo[5];
+    myinfo[0].stnum = 9;
+    myinfo[0].name = "박미리";
+    myinfo[0]. stage = 17;
+    printf("번호 : %d\n",myinfo[0].stnum );
+    printf("이름 : %s\n",myinfo[0].name );
+    printf("나이 : %d",myinfo[0].stage);
+    return 0;
+}*/
+
+
+*#include <stdio.h>
+#include <string.h>
+struct contacts{
+    char name[10];
+    char office[20];
+    char phone[15];
+};
+int main(void)
+{
+    struct contacts customer[20];
+    printf("성명을 입력하세요\n");
+    scanf("%s",&customer[0].name);
+    printf("회사 명을 입력하세요\n");
+    scanf("%s",&customer[0].office);
+    printf("전화번호를 입력하시오\n");
+    scanf("%s",&customer[0].phone);
+    printf("------------------------\n");
+    printf("%s\n",customer[0].name);
+    printf("%s\n",customer[0].office);
+    printf("%s\n",customer[0].phone);
+}*/
+
+#include <stdio.h>
+#include <string.h>
+struct memeber {
+char num[10];
+char name[10];
+char phone[20];
+};
+int main(){
+struct member staff[5] =
+{{"s2001002", "대나무밥과헬리콥터를주머니에서꺼낸도라에몽", "010-1234-0002"},
+{"s2011007", "뮝리박", "010-1234-0003"},
+{"s2012005", "엽기떡볶이", "010-1234-0004"},
+{"s2016001", "순둥부찌개", "010-1234-0005"}
+};
+int name2;
+printf("찾는 이름을 입력하세요 : ");
+scanf("%s", &name2);
 }
