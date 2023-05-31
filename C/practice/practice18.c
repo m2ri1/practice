@@ -60,7 +60,7 @@ int main(void)
 }*/
 
 
-*#include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 struct contacts{
     char name[10];
@@ -82,21 +82,3 @@ int main(void)
     printf("%s\n",customer[0].phone);
 }*/
 
-#include <stdio.h>
-#include <string.h>
-struct memeber {
-char num[10];
-char name[10];
-char phone[20];
-};
-int main(){
-struct member staff[5] =
-{{"s2001002", "대나무밥과헬리콥터를주머니에서꺼낸도라에몽", "010-1234-0002"},
-{"s2011007", "뮝리박", "010-1234-0003"},
-{"s2012005", "엽기떡볶이", "010-1234-0004"},
-{"s2016001", "순둥부찌개", "010-1234-0005"}
-};
-int name2;
-printf("찾는 이름을 입력하세요 : ");
-scanf("%s", &name2);
-}
