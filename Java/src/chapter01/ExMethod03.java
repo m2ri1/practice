@@ -1,4 +1,4 @@
-package chapter01_test;
+package chapter01;
 
 public class ExMethod03 {
     public static void main(String[] args) {
