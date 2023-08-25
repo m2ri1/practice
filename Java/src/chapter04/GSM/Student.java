@@ -1,4 +1,4 @@
-package test.GSM;
+package chapter04.GSM;
 
 public class Student {
     String  name;
