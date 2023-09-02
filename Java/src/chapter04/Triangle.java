@@ -13,5 +13,4 @@ public class Triangle {
 
         System.out.println(t1.getArea());
     }
-
 }
