@@ -25,7 +25,5 @@ public class Array1Demo {
             System.out.println(grade[i]);
 
         }
-
     }
-
 }
