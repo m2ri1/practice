@@ -14,8 +14,9 @@ public class CircleA {
     }
 
     CircleA(String color) {
-        this(1,color);
+        this(10, color);
     }
+
 
     CircleA() {
         this(10,"yello");

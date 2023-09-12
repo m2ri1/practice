@@ -1,4 +1,4 @@
-package chapter04.challnge1;
+package chapter04.challenge1;
 public class Printer {
 
     int numOfPapers;

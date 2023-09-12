@@ -1,4 +1,4 @@
-package chapter05.arrary;
+package chapter05.array;
 
 import java.util.Scanner;
 

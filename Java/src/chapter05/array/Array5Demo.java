@@ -1,8 +1,15 @@
-package chapter05.arrary;
+package chapter05.array;
 
 public class Array5Demo {
     public static void main(String[] args) {
         int a[] = {1,2,3,4,5};
+
+
+        int[] scores3 = new int[5];
+        scores3 = new int[]{100, 95, 89, 69, 59};
+
+
+
 
         increase(a);
 

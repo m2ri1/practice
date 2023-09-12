@@ -22,6 +22,5 @@ public class Circle {
         Circle c2 = new Circle();
 
         System.out.println(c2.name +" 의 면적은 " + c2.getArea());
-
     }
 }
