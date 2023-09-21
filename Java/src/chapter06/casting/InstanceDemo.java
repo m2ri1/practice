@@ -1,4 +1,3 @@
-/*
 package chapter06.casting;
 
 public class InstanceDemo {
@@ -13,10 +12,8 @@ public class InstanceDemo {
 
     }
 
-*/
-/*    private static void downcast(Student s) {
-        if ()
-    }*//*
+    private static void downcast(Student s) {
+
+    }
 
 }
-*/
