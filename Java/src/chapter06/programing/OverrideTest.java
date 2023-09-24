@@ -46,7 +46,7 @@ public class OverrideTest {
         System.out.println(c);
 
       Vehicle v = c;
-        System.out.println(v); 
+        System.out.println(v);
 
     }
 }
