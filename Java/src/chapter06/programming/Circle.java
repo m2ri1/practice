@@ -1,4 +1,4 @@
-package chapter06.programing;
+package chapter06.programming;
 
 public class Circle {
     int radius;

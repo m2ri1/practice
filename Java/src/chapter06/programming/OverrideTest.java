@@ -1,4 +1,4 @@
-package chapter06.programing;
+package chapter06.programming;
 
 class Vehicle {
     String color;
@@ -47,6 +47,5 @@ public class OverrideTest {
 
       Vehicle v = c;
         System.out.println(v);
-
     }
 }

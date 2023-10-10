@@ -1,11 +1,10 @@
-package chapter06.programing;
+package chapter06.programming;
 
 class Parent {
     String name = "영조";
 
     void print() {
         System.out.println("나는 "+ name + " 이다");
-
     }
 
 }
@@ -15,7 +14,6 @@ class Child extends Parent {
 
     void print() {
         System.out.println("나는 "+ name + " 이다");
-
     }
 }
 public class OvershadowTest {
